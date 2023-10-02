@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+    <form action="gracias.html">
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre"
+            name="nombre">
+        </div>
+        <div>
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido"
+            name="apellido">
+        </div>
+        <div>
+            <label for="edad">Edad</label>
+            <input type="number" id="edad"
+            name="edad">
+        </div>
+        <div>
+            <label for="email">Correo Electrónico:</label>
+             <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="Fecha de nacimiento">Fecha de nacimiento:</label>
+
+            <label for="Dia">Dia</label>
+            <select name="Dia">
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="04">04</option>
+                <option value="05">05</option>
+                <option value="06">06</option>
+                <option value="07">07</option>
+                <option value="08">08</option>
+                <option value="09">09</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+
+            <label for="Mes">Mes</label>
+            <select name="Mes">
+                <option value="01">Enero</option>
+                <option value="02">Febrero</option>
+                <option value="03">Marzo</option>
+                <option value="04">Abril</option>
+                <option value="05">Mayo</option>
+                <option value="06">Junio</option>
+                <option value="07">Julio</option>
+                <option value="08">Agosto</option>
+                <option value="09">Septiembre</option>
+                <option value="10">Octubre</option>
+                <option value="11">Noviembre</option>
+                <option value="12">Diciembre</option>
+            </select>
+
+            <label for="Año">Año</label>
+            <select name="Año">
+                <option value="01">1980</option>
+                <option value="02">1981</option>
+                <option value="03">1982</option>
+                <option value="04">1983</option>
+                <option value="05">1984</option>
+                <option value="06">1985</option>
+                <option value="07">1986</option>
+                <option value="08">1987</option>
+                <option value="09">1988</option>
+                <option value="10">1989</option>
+                <option value="11">1990</option>
+                <option value="12">1991</option>
+                <option value="13">1992</option>
+                <option value="14">1993</option>
+                <option value="15">1994</option>
+                <option value="16">1995</option>
+                <option value="17">1996</option>
+                <option value="18">1997</option>
+                <option value="19">1998</option>
+                <option value="20">1999</option>
+                <option value="21">2000</option>
+                <option value="22">2001</option>
+                <option value="23">2002</option>
+                <option value="24">2003</option>
+                <option value="25">2004</option>
+                <option value="26">2005</option>
+                <option value="27">2006</option>
+                <option value="28">2007</option>
+                <option value="29">2008</option>
+                <option value="30">2009</option>
+                <option value="31">2010</option>
+                <option value="32">2011</option>
+                <option value="33">2012</option>
+                <option value="34">2013</option>
+                <option value="35">2014</option>
+                <option value="36">2015</option>
+                <option value="37">2016</option>
+                <option value="38">2017</option>
+                <option value="39">2018</option>
+                <option value="40">2019</option>
+                <option value="41">2020</option>
+                <option value="42">2021</option>
+                <option value="43">2022</option>
+                <option value="44">2023</option>
+            </select>
+        </div>
+        <div>
+            <label for="ciudad">ciudad</label>
+            <select name="ciudad">
+                <option value="1">Cancún</option>
+                <option value="2">Mérida</option>
+                <option value="3">Chetumal</option>
+            </select>
+        </div>
+        <div>
+            <label for="Genero">Genero:</label>
+            <label>
+                <input type="radio" name="genero" value="femenino" required> Femenino
+            </label>
+            <label>
+                <input type="radio" name="genero" value="masculino" required> Masculino
+            </label>
+        </div>
+        <div>
+            <label for="comentarios">Comentarios:</label>
+            <textarea id="comentarios" name="comentarios"></textarea>
+        </div>
+        <div>
+            <label for="terminos">He leído y acepto los términos y condiciones:</label>
+            <input type="checkbox" id="terminos" name="terminos" required>
+        </div>
+        <div>
+            <input type="Submit" value="Regístrate">
+            <input type="reset" value="Borrar información">
+        </div>
+    </form>
+</body>
+</html>
